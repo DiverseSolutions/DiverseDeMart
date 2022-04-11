@@ -1,0 +1,11 @@
+[
+  "function buyOrder() payable",
+  "function desc() view returns (string)",
+  "function fulfill()",
+  "function fulfilled() view returns (bool)",
+  "function hasOrderTransaction() view returns (bool)",
+  "function imgUrl() view returns (string[])",
+  "function name() view returns (string)",
+  "function orderTransactionAddress() view returns (address)",
+  "function price() view returns (uint256)"
+]

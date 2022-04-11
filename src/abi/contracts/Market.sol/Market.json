@@ -1,0 +1,11 @@
+[
+  "event NewAccount(address indexed,address indexed)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "function accounts(address) view returns (address)",
+  "function createAccount()",
+  "function getAccountLength() view returns (uint256)",
+  "function hasAccount(address) view returns (bool)",
+  "function owner() view returns (address)",
+  "function renounceOwnership()",
+  "function transferOwnership(address)"
+]

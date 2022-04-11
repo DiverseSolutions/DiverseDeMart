@@ -1,0 +1,18 @@
+[
+  "constructor(address,string[],string,string,uint256)",
+  "event NewOrderTransaction(address indexed,address indexed)",
+  "event OrderFulfilled(address indexed,address indexed)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "function buyOrder(uint256) payable",
+  "function desc() view returns (string)",
+  "function fulfill()",
+  "function fulfilled() view returns (bool)",
+  "function hasOrderTransaction() view returns (bool)",
+  "function imgUrl(uint256) view returns (string)",
+  "function name() view returns (string)",
+  "function orderTransactionAddress() view returns (address)",
+  "function owner() view returns (address)",
+  "function price() view returns (uint256)",
+  "function renounceOwnership()",
+  "function transferOwnership(address)"
+]

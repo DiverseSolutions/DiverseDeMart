@@ -1,0 +1,10 @@
+[
+  "constructor(address,address,address,uint256)",
+  "function buyerAddress() view returns (address)",
+  "function fulfillOrder()",
+  "function getBalance() view returns (uint256)",
+  "function orderAddress() view returns (address)",
+  "function ownerAddress() view returns (address)",
+  "function releaseTime() view returns (uint256)",
+  "function releaseToUser()"
+]
