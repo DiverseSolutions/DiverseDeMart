@@ -9,7 +9,7 @@ contract Market is Ownable {
 
   mapping(address => address) public accounts;
   mapping(address => bool) public hasAccount;
-  address[] private accountKeys;
+  address[] public accountKeys;
 
   function createAccount() external {
     require(hasAccount[msg.sender] == false,"User already has an account");
